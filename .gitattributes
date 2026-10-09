@@ -1,0 +1,25 @@
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.html text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.ts  text eol=lf
+*.json text eol=lf
+*.ini  text eol=lf
+*.service text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+*.png  binary
+*.jpg  binary
+*.so   binary
+*.ko   binary
+*.exe  binary
+*.qm   binary
+compile-tools/**/bin/protoc binary
+compile-tools/**/bin/protoc.exe binary
